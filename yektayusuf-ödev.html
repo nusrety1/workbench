@@ -4,8 +4,113 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            background-color: gray;
+            margin: 0;
+            margin-inline: 70px;
+            
+            
+        }
+        header{
+            background-color: purple;
+            padding: 50px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            width: auto;
+            height: 10px;
+            padding: 10px 0px 50px 10px ;
+            margin-block-start: 80px;
+            
+            
+
+
+        }
+        container{
+        display: flex; flex-direction: column-reverse;
+        background-color: white;
+        padding: 50px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        width: auto;
+        height: 10px;
+        padding: 10px 0px 50px 10px;
+        margin-block: 10px;
+        
+        height: 500px;
+
+
+
+    }
+        .metin{
+        margin-right: 60px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 40px;
+        font-size: 20px;
+         }
+    .arama{
+        margin-left: 10px;
+    }
+    .text{
+        padding: 8px;
+        font-size: 12px;
+        border: 2px solid white;
+        border-radius: 7px;
+        width: 250px;
+        margin-top: 40px;
+    }
+    
+    .submit {
+        color: white;
+        padding: 10px 25px;
+        font-size: 12px;
+        background-color: black;
+        border: 2px solid black;
+        border-radius: 5px;
+        cursor: pointer;
+        height: auto;            
+}
+    .article{
+        display: flex;
+        align-items: center;
+        color: black;
+        margin-top: -490px;
+    }
+    
+
+
+
+    </style>
 </head>
 <body>
+    <header>
+        <div class="metin"><p>Home</p></div>
+        <div class="metin"><p>Our Team</p></div>
+        <div class="metin"><p>Project</p></div>
+        <div class="metin"><p>Contact</p></div>
+        <div class="arama">
+            <form action="#" method="get">
+                  <input type="text" class="text" placeholder="Search query">
+                  <input type="submit" class="submit" value="Go!">
+              </form>
+        </div>
+    </header>
+
+    <container>
+        
+    <content>
+        <h1 class="article">Article heading</h1>
+        
+
+
+
+        </content>
+
+
+
+    </container>
     
 </body>
 </html>
