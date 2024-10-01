@@ -7,62 +7,62 @@
     <style>
         body{
             background-color: gray;
-            margin: 0;
+            margin: auto;
             margin-inline: 50px;
-            
+            display: table;
+
             
         }
         header{
             background-color: purple;
             padding: 50px;
-            width: 100%;
+            width: 900px;
             display: flex;
             align-items: center;
-            width: auto;
             height: 10px;
-            padding: 10px 0px 50px 10px ;
+            padding: 10px 0px 40px 10px ;
             margin-block-start: 80px;
-            
-            
-
-
         }
-        container{
-        display: flex; flex-direction: column-reverse;
-        background-color: white;
-        padding: 50px;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        width: auto;
-        height: 10px;
-        padding: 10px 0px 50px 10px;
-        margin-block: 10px;
-        
-        height: 500px;
+        .container{
+            display: table;
+            background-color: white;
+            margin-block-start: 20px;
+            height: 400px;
+            width: 600px;   
+        }
+         .article{
+            font-size: 20px;
+            text-align: center;
+            justify-content: center;
+            margin-left: 10px;
+        }
+        .subsection{
+            font-size: 20px;
+            margin-left: 10px;
+        }
+        .subsection2{
+            font-size: 20px;
+            margin-left: 10px;
+        }
 
-
-
-    }
-    .metin{
-    margin-right: 60px;
-    font-family: 'Times New Roman', Times, serif;
-    margin-top: 40px;
-    font-size: 20px;
-    }
-    .arama{
+        .metin{
+        margin-right: 60px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 40px;
+        font-size: 20px;
+        }
+        .arama{
         margin-left: 10px;
-    }
-    .text{
+        }
+        .text{
         padding: 8px;
         font-size: 12px;
         border: 2px solid white;
         border-radius: 7px;
         width: 250px;
         margin-top: 40px;
-    }
-    
-    .submit {
+         }
+        .submit {
         color: white;
         padding: 10px 25px;
         font-size: 12px;
@@ -70,8 +70,58 @@
         border: 2px solid black;
         border-radius: 5px;
         cursor: pointer;
-        height: auto;
-    }
+        height: auto;            
+        }
+        .deneme{
+            justify-content: center;
+        }
+        .p1{
+            margin-left: 10px;
+        }
+        .p2{
+            margin-left: 10px;
+        }
+        .p3{
+            margin-left: 10px;
+        }
+        .alt{
+            background-color: white;
+            width: auto;
+            height: 60px;
+            width: 900px;
+            
+        }
+        .copy{
+            
+            text-align: left;
+            align-items: center;
+            padding:  20px;
+            margin: 4;
+            margin-left: -15px;
+        
+        }
+        .sidebar {
+            margin-top: -623px;
+            background-color: purple;
+            width: 25%; 
+            height: 89px;
+            margin-left: 800px; 
+            padding: 20px 0px 438px; 
+            margin-left: 615px;
+            overflow: auto;
+        }
+        .large-bullet {
+            margin-top: -80px;
+            list-style-type: disc;
+            padding-left: 60px;
+            font-size: 20px;
+            
+        }
+        .related{
+            margin-top: 10px;
+            padding-left: 30px;
+            font-size: 40px;
+        }
     </style>
 </head>
 <body>
@@ -87,3 +137,33 @@
               </form>
         </div>
     </header>
+
+    <div class="container">   
+            <h1 class="article">Article Heading</h1>
+            
+            <p class="p1">Velit nam magnam, consectetur exercitationem consequuntur, facilis sapiente odit est tempora cupiditate amet! Odio incidunt placeat officia autem nostrum laudantium veniam inventore!</p>
+            
+            <h2 class="subsection">subsection</h2>
+        
+            <p class="p2"> Vitae et nesciunt, magni recusandae natus cumque ex pariatur voluptas? Ab a laudantium velit soluta illum cum, dolor sequi suscipit quis culpa ex consequuntur saepe voluptates nemo reprehenderit dolorum ea? Eaque nostrum delectus. <br><br> Quibusdamollitia expedita ipsam repudiandae laudantium, nostrum sapiente perferendis eos magnam natus ut ad? Consequuntur, alias esse magni pariatur eaque rerum labore reprehenderit autem cumque aspernatur doloribus nulla fugiat aperiam!</br></p>
+        
+            <h3 class="subsection2">Another subsection</h3>
+            <p class="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore eius sint, molestias, quod nulla consectetur repellendus tempore placeat animi eveniet voluptas error, voluptatibus eos reiciendis rerum necessitatibus possimus qui voluptatum consequuntur deleniti. Eum adipisci porro excepturi, dolorum deserunt sint corporis id fugiat commodi. <br><br> Incidunt dicta dolore perferendis! Nemo, ut possimus eius consequatur rem quo. Rem earum expedita vel consectetur laborum unde deserunt porro eligendi optio, dicta corporis sequi? Tempore, ex? Maxime numquam deleniti voluptate perferendis dolore officiis corrupti nam quidem ad sapiente. Laborum doloribus itaque, vitae repellendus hic iusto voluptate, nemo, cum sit veritatis tenetur maiores velit temporibus dolorum ipsum?</br></p>
+    </div>     
+     <div class="alt">
+        <p class="copy">©Copyright 2025 bben</p>
+
+
+</div>
+<div class="sidebar">
+<h6 class="related">Related</h6>
+<ul class="large-bullet">
+    <li><a href="yekta.html">Burhan Sayfası İçin Tıklayın</a></li>
+    <li><a href="yeyu.html">YeYu Tarayıcı İçin Tıklayınız</a></li>
+    <li><a href="yusuf.html">Yusuf Sayfası İçin Tıklayın</a></li>
+    <li><a href="index.html">İndex Sayfası İçin Tıklayın</a></li>
+
+
+</div>
+</body>
+</html>
